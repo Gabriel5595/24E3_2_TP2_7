@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card h3,
+.card p {
+    margin: 2px;
+    padding: 2px;
+}
+
+.card p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        flex-direction: column;
+        height: auto;
+    }
+}
